@@ -1,0 +1,170 @@
+<ui-view>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light border border-prime rounded" style="background-color:white ">
+            <a class="navbar-brand ">
+                <img src="images/RSZ_logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Mystery Odyssey
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" ui-sref="mainpage">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CSR</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div>
+            <form style="margin-bottom:30px; margin-top:30px">
+                <div class="form-row" style="background-color:orange; ">
+                    <div class="form-group col-sm-3">
+                        <label>Travel from:</label>
+                        <input type="text" class="form-control" placeholder="City">
+                    </div>
+                    <div class="form-group col">
+                        <label>Depart:</label>
+                        <input type="date" class="form-control" placeholder="dd/mm/yyyy">
+                    </div>
+                    <div class="form-group col">
+                        <label>Return:</label>
+                        <input type="date" class="form-control" placeholder="dd/mm/yyyy">
+                    </div>
+                    <div class="col">
+                        <label>Rooms:</label>
+                        <input type="text" class="form-control" placeholder="1">
+                    </div>
+                    <div class="col">
+                        <label>Guests:</label>
+                        <input type="text" class="form-control" placeholder="1">
+                    </div>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="card" style="background-color:orange">
+                            <div class="card-header" id="headingOne">
+                                <h2>
+                                    <button class="btn btn-link collapsed " type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                        style="color:black">
+                                        Filters
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse " aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="col">
+                                        <label>Min price:</label>
+                                        <input type="text" class="form-control" placeholder="£100">
+                                    </div>
+                                    <div class="col">
+                                        <label>Max price:</label>
+                                        <input type="text" class="form-control" placeholder="£1500">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Warm place</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Cold place</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary d-block w-100">Search</button>
+            </form>
+
+            <div style="text-align:center">
+                <h2 style="color:rgb(16, 83, 230)">Want a mystery holiday?</h2>
+                <h3 style="color:orange">Look no further!</h3>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/banner.jpg" style="height:650px" alt="First slide">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer style=" border-top:solid 5px orange">
+
+
+            <div style="margin:10px; text-align: center">
+                <p>Find us on Social Media: </p>
+
+                <a href="https://www.facebook.com/">
+                    <img src="images/facebook-icon.png" width="30" height="30" alt="">
+                </a>
+                <a href="https://uk.linkedin.com/">
+                    <img src="images/linkedin-icon.png" width="30" height="30" alt="">
+                </a>
+                <a href="https://twitter.com/?lang=en-gb">
+                    <img src="images/twitter-icon.png" width="30" height="30" alt="">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="images/instagram-logo.jpeg" width="30" height="30" alt="">
+                </a>
+
+                <p style="margin-top:20px">We also support payments with: </p>
+                <a href="https://www.paypal.com/">
+                    <img src="images/paypal-icon.png" width="70" height="80" alt="">
+                </a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Mystery Odyssey
+                <div >
+                    <a href="" style="margin:10px">
+                        Privacy
+                    </a>
+                    <a href="" style="margin:10px">
+                        Privacy policy
+                    </a>
+                    <a href="" style="margin:10px">
+                        Booking T&C
+                    </a>
+                    <a href="" style="margin:10px">
+                        T&C
+                    </a>
+                    <a href="" style="margin:10px">
+                        Important T&C
+                    </a>
+                    <a href="" style="margin:10px">
+                        Site Accessability
+                    </a>
+                </div>
+
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+
+</ui-view>
