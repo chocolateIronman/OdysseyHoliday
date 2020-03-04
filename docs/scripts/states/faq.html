@@ -1,0 +1,106 @@
+<ui-view>
+    <nav class="navbar navbar-expand-lg navbar-light border border-prime rounded" style="background-color:white ">
+            <a class="navbar-brand ">
+                <img src="images/RSZ_logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Mystery Odyssey
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" ui-sref="mainpage">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CSR</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    
+    <h3 style="text-align:center">FAQ</h3>
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Can I request a return?
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Item(s) purchased online from the GOLDEN SHOE website can be returned by submitting a Return Request
+                    via the online store, within 30 days from the receipt date.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Defective/ incorrect item
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    All item(s) purchased online from the GOLDEN SHOE website can be exchanged by submitting a Return
+                    Request via the online store, within 30 days from the receipt date.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How long will it take for me to receive my order?
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    All items purchased from the GOLDEN SHOE website will be shipped from the UK. For EU orders, it
+                    takes 2-3 business days for Standart Delivery and 1 business day for Express Delivery. Please note
+                    that the expected delivery date is at our best approsimation and might vary with different
+                    circumstances.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Is there a guaranteed date which I can receive my order?
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    Unfortunatelly, no. We are unable to guarantee a delivery date. Orders placed and confirmed by 4pm
+                    (GMT) on working days will be processed on the same day, while orders placed and confirmed after 4pm
+                    (GMT) will be processed on the next working day.
+                </div>
+            </div>
+        </div>
+    </div>
+</ui-view>
