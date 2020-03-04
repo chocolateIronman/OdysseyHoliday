@@ -3,6 +3,7 @@ angular.module('starter', [
     'ngAnimate',
     'ui.bootstrap',
     'mainpagejs',
+    'faqjs',
     'ngResource'
 ])
     
