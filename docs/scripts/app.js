@@ -4,6 +4,8 @@ angular.module('starter', [
     'ui.bootstrap',
     'mainpagejs',
     'faqjs',
+    'aboutusjs',
+    'csrjs',
     'ngResource'
 ])
     

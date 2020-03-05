@@ -3,8 +3,8 @@
         'use strict';
 
         angular
-            .module('faqjs')
-            .controller('faqCtrl', control);
+            .module('csrjs')
+            .controller('csrCtrl',control);
 
         control.$inject = [
             '$state'
@@ -19,6 +19,6 @@
 
             return vm;
         }
-
+       
     }
 )();
