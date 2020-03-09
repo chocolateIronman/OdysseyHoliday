@@ -1,51 +1,52 @@
 <ui-view>
     <nav class="navbar navbar-expand-lg navbar-light border border-prime rounded" style="background-color:white ">
-            <a class="navbar-brand ">
-                <img src="images/rszlogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                Mystery Odyssey
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <a class="navbar-brand ">
+            <img src="images/rszlogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Mystery Odyssey
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" ui-sref="mainpage">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" ui-sref="aboutus">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" ui-sref="faq">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" ui-sref="csr">CSR</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" ui-sref="mainpage">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" ui-sref="aboutus">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" ui-sref="faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" ui-sref="csr">CSR</a>
+                </li>
+            </ul>
+        </div>
 
-        </nav>
-    
+    </nav>
+
     <h3 style="text-align:center; color:skyblue">Frequently Asked Questions</h3>
     <h4 style="text-align:center; color:orange">How can we help?</h4>
 
     <div class="accordion" id="accordionExample" style="margin:20px;">
-        <div class="card" >
-            <div class="card-header" id="headingOne" >
+        <div class="card">
+            <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
-                        aria-expanded="true" aria-controls="collapseOne" >
-                        Can I request a return?
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Cancel your holiday booking
                     </button>
                 </h2>
             </div>
 
             <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
-                    Item(s) purchased online from the GOLDEN SHOE website can be returned by submitting a Return Request
-                    via the online store, within 30 days from the receipt date.
+                    If you would like to cancel your booking Mystery Odyssey charges a cancellation fee of GBP 20 per
+                    traveller. The fee does NOT include the fees charged by the airline, hotel, car rental or activity
+                    provider. These fees will be passed on to you by Mystery Odyssey.
                 </div>
             </div>
         </div>
@@ -55,14 +56,14 @@
                 <h2 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                         data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Defective/ incorrect item
+                        Refund booking
                     </button>
                 </h2>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                 <div class="card-body">
-                    All item(s) purchased online from the GOLDEN SHOE website can be exchanged by submitting a Return
-                    Request via the online store, within 30 days from the receipt date.
+                    You will get all your money back as long as your cancellation is not too close to the check-in
+                    period of 7 days.
                 </div>
             </div>
         </div>
@@ -72,16 +73,15 @@
                 <h2 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                         data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        How long will it take for me to receive my order?
+                        Changing your holiday booking
                     </button>
                 </h2>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="card-body">
-                    All items purchased from the GOLDEN SHOE website will be shipped from the UK. For EU orders, it
-                    takes 2-3 business days for Standart Delivery and 1 business day for Express Delivery. Please note
-                    that the expected delivery date is at our best approsimation and might vary with different
-                    circumstances.
+                    If you would like to change your holiday booking, Mystety Odyssey charges a fee of GBP 10 to make
+                    the changes. The fee does NOT include the airline chnage fee for each ticket or the hotel change
+                    fee. These fees will be passed on to you by Mystery Odyssey.
                 </div>
             </div>
         </div>
@@ -91,72 +91,88 @@
                 <h2 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                         data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Is there a guaranteed date which I can receive my order?
+                        Changing your activity preference
                     </button>
                 </h2>
             </div>
             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                 <div class="card-body">
-                    Unfortunatelly, no. We are unable to guarantee a delivery date. Orders placed and confirmed by 4pm
-                    (GMT) on working days will be processed on the same day, while orders placed and confirmed after 4pm
-                    (GMT) will be processed on the next working day.
+                    If you request to change your activity preference within 24 hours of your confirmed booking this can
+                    happen through Mystery Odysseys' online booking system. If change is required after more than 24 hours of
+                    your confirmed booking this can be done upon arrival at the destionation.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingFive">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Checking in for your flight
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                <div class="card-body">
+                    For your flight check-in you will need your confirmation code from your holiday booking.
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!-- Footer -->
-        <footer style=" border-top:solid 5px orange">
+    <footer style=" border-top:solid 5px orange">
 
 
-            <div style="margin:10px; text-align: center">
-                <p>Find us on Social Media: </p>
+        <div style="margin:10px; text-align: center">
+            <p>Find us on Social Media: </p>
 
-                <a href="https://www.facebook.com/">
-                    <img src="images/facebook-icon.png" width="30" height="30" alt="">
-                </a>
-                <a href="https://uk.linkedin.com/">
-                    <img src="images/linkedin-icon.png" width="30" height="30" alt="">
-                </a>
-                <a href="https://twitter.com/?lang=en-gb">
-                    <img src="images/twitter-icon.png" width="30" height="30" alt="">
-                </a>
-                <a href="https://www.instagram.com/">
-                    <img src="images/instagram-logo.jpeg" width="30" height="30" alt="">
-                </a>
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook-icon.png" width="30" height="30" alt="">
+            </a>
+            <a href="https://uk.linkedin.com/">
+                <img src="images/linkedin-icon.png" width="30" height="30" alt="">
+            </a>
+            <a href="https://twitter.com/?lang=en-gb">
+                <img src="images/twitter-icon.png" width="30" height="30" alt="">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram-logo.jpeg" width="30" height="30" alt="">
+            </a>
 
-                <p style="margin-top:20px">We also support payments with: </p>
-                <a href="https://www.paypal.com/">
-                    <img src="images/paypal-icon.png" width="70" height="80" alt="">
+            <p style="margin-top:20px">We also support payments with: </p>
+            <a href="https://www.paypal.com/">
+                <img src="images/paypal-icon.png" width="70" height="80" alt="">
+            </a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Mystery Odyssey
+            <div>
+                <a href="" style="margin:10px">
+                    Privacy
+                </a>
+                <a href="" style="margin:10px">
+                    Privacy policy
+                </a>
+                <a href="" style="margin:10px">
+                    Booking T&C
+                </a>
+                <a href="" style="margin:10px">
+                    T&C
+                </a>
+                <a href="" style="margin:10px">
+                    Important T&C
+                </a>
+                <a href="" style="margin:10px">
+                    Site Accessibility
                 </a>
             </div>
 
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2020 Mystery Odyssey
-                <div >
-                    <a href="" style="margin:10px">
-                        Privacy
-                    </a>
-                    <a href="" style="margin:10px">
-                        Privacy policy
-                    </a>
-                    <a href="" style="margin:10px">
-                        Booking T&C
-                    </a>
-                    <a href="" style="margin:10px">
-                        T&C
-                    </a>
-                    <a href="" style="margin:10px">
-                        Important T&C
-                    </a>
-                    <a href="" style="margin:10px">
-                        Site Accessibility
-                    </a>
-                </div>
+        </div>
+        <!-- Copyright -->
 
-            </div>
-            <!-- Copyright -->
-
-        </footer>
-        <!-- Footer -->
+    </footer>
+    <!-- Footer -->
 </ui-view>
